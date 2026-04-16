@@ -1,0 +1,11 @@
+.fi-dropdown-panel.flags-only {
+    @apply !w-[3.5rem] !min-w-0 !p-0;
+}
+
+.fi-dropdown-panel.fls-dropdown-width {
+    @apply !w-[10rem] !min-w-0;
+}
+
+.language-switch-trigger {
+    @apply transition-all duration-200 ease-in-out hover:ring-2 hover:ring-primary-500/50 hover:bg-primary-500/20 active:scale-95;
+}
